@@ -1,0 +1,99 @@
+/* styleslog.css */
+
+/* General body styling */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login container styling */
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #222; /* Dark grey background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333; /* Dark grey input background */
+    color: #fff; /* White text */
+    border: 1px solid #555; /* Border color */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #fff; /* White button */
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #444; /* Dark grey background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Link styling */
+a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #bbb; /* Light grey text on hover */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph for the registration link */
+p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* Logout button styling */
+.logout {
+    margin-top: 20px;
+}
+body {
+    background-image: url('images/ice_store.jpg');
+    background-size: cover; /* Makes the image cover the entire page */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}

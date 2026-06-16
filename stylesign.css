@@ -1,0 +1,90 @@
+/* stylesign.css */
+
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #111; /* Slightly lighter black for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff; /* White heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: #222; /* Dark grey input background */
+    color: #fff; /* White text */
+}
+
+input[type="submit"] {
+    background-color: #fff; /* White button background */
+    color: #000; /* Black text */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Dark grey hover effect */
+    color: #fff; /* White text on hover */
+}
+
+a {
+    color: #fff; /* White links */
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #aaa; /* Light grey on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+body {
+    background-image: url('images/ice_store.jpg');
+    background-size: cover; /* Makes the image cover the entire page */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}
